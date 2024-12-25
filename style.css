@@ -1,0 +1,101 @@
+
+body{
+    text-align:center;
+    font-family: "Zain", sans-serif;
+    background-color: #a5a5a5;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .jost> {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .banner{
+    background-image: url('back 2.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1{
+    font-family: "Jost", sans-serif;
+    text-align:center;
+    color: #edecec;
+    font-size: 5vw;
+  }
+  h2{
+    font-family: "Jost", sans-serif;
+    text-align:center;
+    font-size: 3vw;
+    padding: 0px;
+    margin-top: 200px;
+    padding-top:40px;
+    color: #bfbcbc;
+  }
+  h3{
+    font-family: "Jost", sans-serif;
+    text-align:center;
+    font-size: 3vw;
+    padding: 0px;
+    margin-top: 200px;
+    color: #2a2929;
+  }
+  p{
+    font-size: 4vw;
+    font-family: "Jost", sans-serif;
+    color: #2a2929;
+  }
+  
+  .gallery {
+    background-color:rgb(43, 43, 43);
+    padding-bottom: 120px;
+  }
+  .gallery img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+  }
+  .gallery2 {
+    background-color: #a5a5a5;
+  }
+  .gallery2 img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+  }
+  .box img{
+    width: 50vw;
+    border-radius: 1px;
+  }
+
+  .footer{
+    margin-top: 50px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+
+  
+  
