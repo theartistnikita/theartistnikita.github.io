@@ -84,11 +84,11 @@ body{
   }
   .gallery2 img:hover{
     transition: 0.5s;
-    transform: scale(1.02);
+    transform: scale(1.04);
   }
   .box img{
     width: 40vw;
-    border-radius: 1px;
+    border-radius: 3px;
   }
 
   .footer{
