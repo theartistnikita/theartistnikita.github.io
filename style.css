@@ -1,150 +1,140 @@
 
 body{
-    text-align:center;
-    font-family: "Zain", sans-serif;
-    background-color: #a5a5a5;
-    padding: 0px;
-    margin: 0px;
-  }
+  text-align:center;
+  font-family: "Zain", sans-serif;
+  background-color: #a5a5a5;
+  padding: 0px;
+  margin: 0px;
+}
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-  .jost> {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .banner{
-    background-image: url('back.png');
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-  }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.jost> {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.banner{
+  background-image: url('back.png');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
-  .flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  h0{
-    letter-spacing: 2px;
-    font-family: "Jost", sans-serif;
-    text-align:center;
-    color: #F1DAAE;
-    font-size: 5vw;
-  }
-  h1{
-    font-family: "Jost", sans-serif;
-    text-align:center;
-    color: #edecec;
-    font-size: 5vw;
-  }
-  h2{
-    font-family: "Jost", sans-serif;
-    text-align:center;
-    font-size: 3vw;
-    padding: 0px;
-    margin-top: 200px;
-    padding-top:40px;
-    color: #bfbcbc;
-  }
-  h3{
-    font-family: "Jost", sans-serif;
-    text-align:center;
-    font-size: 3vw;
-    padding: 0px;
-    margin-top: 200px;
-    color: #2a2929;
-  }
-  h4{
-    font-family: "Jost", sans-serif;
-    text-align:center;
-    font-size: 3vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    color: #2a2929;
-  }
-  p{
-    font-size: 4vw;
-    font-family: "Jost", sans-serif;
-    color: #2a2929;
-  }
-  
-  .gallery {
-    background-color:rgb(43, 43, 43);
-    padding-bottom: 120px;
-  }
-  .gallery img:hover{
-    transition: 0.5s;
-    transform: scale(1.02);
-  }
-  .gallery2 {
-    background-color: #a5a5a5;
-  }
-  .gallery2 img:hover{
-    transition: 0.5s;
-    transform: scale(1.04);
-  }
-  .box img{
-    width: 40vw;
-    border-radius: 3px;
-  }
-  .profileBox img{
-    width: 30vw;
-    border-radius: 300px;
-  }
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  letter-spacing: 3px;
+  font-family: "Jost", sans-serif;
+  text-align:center;
+  color: #F1DAAE;
+  font-size: 5vw;
+}
+h2{
+  text-align:start;
+  font-family: "Jost", sans-serif;
+  font-size: 1.5vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 3vw;
+  color: #2a2929;
+}
+h3{
+  font-family: "Jost", sans-serif;
+  text-align:center;
+  font-size: 3vw;
+  padding: 0px;
+  margin-top: 100px;
+  color: #2a2929;
+}
 
-  .footer{
-    margin-top: 50px;
-    padding-bottom: 5px;
-    padding-top: 10px;
-  }
+.gallery2 {
+  background-color: #a5a5a5;
+}
+.gallery2 img:hover{
+  transition: 0.5s;
+  transform: scale(1.04);
+}
+
+.box img{
+  padding: 10px;
+  width: 40vw;
+}
+.profileBox img{
+  width: 20vw;
+  border-radius: 500px;
+  margin-top:10vw;
+}
 
 
 /* Add a black background color to the top navigation */
 .navigation {
-  font-family: "Jost", sans-serif;
-  background-color: #252525;
-  overflow: hidden;
+font-family: "Jost", sans-serif;
+background-color: #252525;
+overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .navigation a {
-  float: left;
-  color: #F1DAAE;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: "Jost", sans-serif;
+text-decoration: none;
+float: left;
+color: #d5d2cd;
+text-align: center;
+padding: 15px 20px;
+font-size: 23px;
+font-family: "Jost", sans-serif;
+}
+.navigation b {
+text-decoration: none;
+float: left;
+color: #d5d2cd;
+text-decoration: underline;
+text-align: center;
+padding: 15px 20px;
+font-size: 23px;
+font-family: "Jost", sans-serif;
+}
+.navigation c {
+text-decoration: none;
+float: left;
+color: #d5d2cd;
+text-decoration: underline;
+text-align: center;
+padding: 15px 20px;
+font-size: 23px;
+font-family: "Jost", sans-serif;
 }
 
-/* Change the color of links on hover */
 .navigation a:hover {
-  background-color: #F1DAAE;
-  color: #252525;
+text-decoration: underline;
 }
 
-/* Add a color to the active/current link */
-.navigation a.active {
-  background-color: #04AA6D;
-  color: #F1DAAE;
+.contact img{
+width:4vw;
+padding:2vw;
+margin-bottom:10vw;
 }
 
-  
-  
+.folpa embed{
+width: 200vw;
+height: 90vw;
+}
+
